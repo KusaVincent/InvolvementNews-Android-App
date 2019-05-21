@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_laptop_chromebook_black_24dp"
+            android:title="Academics" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Campus News" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="International News" />
+
+
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_radio_black_24dp"
+            android:title="Kenyan News" />
+
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:icon="@drawable/ic_motorcycle_black_24dp"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_sixth_layout"
+            android:icon="@drawable/ic_local_offer_black_24dp"
+            android:title="Souvenir" />
+
+        <item
+            android:id="@+id/nav_seventh_layout"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Features" />
+
+        <item
+            android:id="@+id/nav_jamvi_layout"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="Jamvi" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Log in" />
+
+        </menu>
+    </item>
+
+</menu>

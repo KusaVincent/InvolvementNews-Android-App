@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txthome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:background="#003366"
+            android:textColor="#ffffff"
+            android:onClick="onClick"
+            android:clickable="true"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/emblem"/>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/custom_border">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="360dp"
+                        android:id="@+id/img2"
+                        android:background="@drawable/samsung"
+                        android:layout_margin="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:id="@+id/jamvi2"
+                        android:text="Uzinduzi wa Samsung Galaxy S10"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"
+                        android:onClick="onClick" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/maha" />
+
+                        <TextView
+                            android:id="@+id/jamvi3"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:layout_marginTop="20dp"
+                            android:text="Sherehe ya Mahafali" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img4"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/jamaa"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:id="@+id/jamvi4"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:text="Jamaa achizi baada ya kukosa haki kwa mwanawe aliyenajisiwa"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img5"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/shaka"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:id="@+id/jamvi5"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:text="Shaka wa Mawaridi"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img6"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/shaka"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/jamvi6"
+                            android:text="Shaka wa Mawaridi 2"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img7"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/sekondari"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/jamvi7"
+                            android:text="Uteketezaji wa shule za sekondari"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

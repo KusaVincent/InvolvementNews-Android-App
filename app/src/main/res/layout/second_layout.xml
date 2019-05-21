@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txthome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:background="#003366"
+            android:textColor="#ffffff"
+            android:clickable="true"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/emblem"/>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/custom_border">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:id="@+id/img2"
+                        android:background="@drawable/portal"
+                        android:layout_margin="5dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/camp2"
+                        android:text="Students Launch My Portal APP"
+                        android:textColor="#000000"
+                        android:layout_marginTop="20dp"
+                        android:onClick="onClick" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:id="@+id/img3"
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/mentees" />
+
+                        <TextView
+                            android:id="@+id/camp3"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:layout_marginTop="20dp"
+                            android:text="Mentorship induction program" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img4"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/prof"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:id="@+id/camp4"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:text="Prof. Laban Ayiro Warmly Received by the Daystar Community"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img5"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/dcf1"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:id="@+id/camp5"
+                            android:textColor="#000000"
+                            android:onClick="onClick"
+                            android:text="DCF nominees announced as election date approaches"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img6"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/kenyatta"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/camp6"
+                            android:text="Former Kenyatta University Vice Chancellor among new Daystar Council Members"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img7"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/gene"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/camp7"
+                            android:text="Daystar to roll out New Generation Student ID Cards"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img8"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/international"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/camp8"
+                            android:text="International Students Tour Nairobi City"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img9"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/gatundu"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/camp9"
+                            android:text="Jomo Gatundu resigns as Daystar University DVC Finance."
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/custom_border">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/img10"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/smith"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:onClick="onClick"
+                            android:textColor="#000000"
+                            android:id="@+id/camp10"
+                            android:text="Daystar University founders recovering following road accident"
+                            android:layout_marginTop="20dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
